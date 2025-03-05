@@ -1,0 +1,1461 @@
+@media only screen and (min-width: 1200px) {
+    #trueHeader #logo {
+        height: 69px;
+        background-image: url("/images/yeni_logo.png") !important;
+        background-position-y: 14px !important;
+    }
+
+    .features_sec011 {
+        width: 700px;
+        height: 300px;
+    }
+
+        .features_sec011 .container {
+            width: 700px;
+            height: 300px;
+            border-radius: 5px;
+        }
+
+            .features_sec011 .container ul {
+                padding: 2%;
+                margin-bottom: 20px;
+                height: 350px;
+                width: 700px;
+                border-radius: 5px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+        .features_sec011 li.left {
+            width: 50%;
+            margin-left: 30px;
+        }
+
+        .features_sec011 li.right {
+            float: right;
+            width: 40%;
+            padding-left: 2%;
+        }
+
+        .features_sec011 h2 {
+            font-size: 20px;
+            line-height: 30px;
+            padding-top: 65px;
+            text-align: center;
+            color: black;
+        }
+
+        .features_sec011 li a {
+            height: 20px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .features_sec011 ul {
+            position: relative;
+            border-radius: 5px;
+            background-color: #fff;
+            border-left: 0px;
+        }
+
+            .features_sec011 ul:hover {
+                border-left: 0px;
+                background-color: #fff;
+            }
+
+        .features_sec011 p {
+            text-align: center;
+            margin-left: 30px;
+            height: 25px;
+        }
+
+        .features_sec011 img {
+            width: 100%;
+            margin-top: 60px;
+        }
+
+    .urunDetay {
+        position: relative;
+        right: 20px;
+        bottom: 5px;
+    }
+
+    .features_sec011 li i {
+        font-size: 20px;
+        color: white;
+    }
+
+    .hider {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 10000;
+        background-color: Black;
+        opacity: 0.6;
+        filter: alpha(opacity=50);
+    }
+
+    .popupbox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 700px;
+        height: 40px;
+        margin-top: -225px;
+        /*yüksekliğin yarısı olmalı*/
+        margin-left: -400px;
+        /*genişliğin yarısı olmalı*/
+        border: 0px;
+        border-radius: 10px;
+        z-index: 10001;
+        background-color: #fff;
+        /*-moz-box-shadow: 10px 10px 5px rgb(50,50,50);
+        -webkit-box-shadow: 10px 10px 5px rgb(50,50,50);*/
+        /*box-shadow: 10px 10px 5px rgba(50,50,50,0.3);*/
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1199px) {
+    #trueHeader #logo {
+        margin-top: 5px;
+    }
+
+    .features_sec011 {
+        width: 650px;
+        height: 300px;
+    }
+
+        .features_sec011 .container {
+            width: 650px;
+            height: 300px;
+        }
+
+            .features_sec011 .container ul {
+                padding: 2%;
+                margin-bottom: 20px;
+                height: 300px;
+                width: 650px;
+                border-radius: 5px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+        .features_sec011 li.left {
+            width: 50%;
+        }
+
+        .features_sec011 li.right {
+            float: right;
+            width: 40%;
+            padding-left: 2%;
+        }
+
+        .features_sec011 h2 {
+            font-size: 20px;
+            line-height: 30px;
+            padding-top: 40px;
+            text-align: center;
+            color: black;
+        }
+
+        .features_sec011 li a {
+            height: 20px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .features_sec011 ul {
+            position: relative;
+        }
+
+    .urunDetay {
+        position: relative;
+        right: 20px;
+        bottom: 5px;
+    }
+
+    .features_sec011 li i {
+        font-size: 25px;
+        color: white;
+    }
+
+    .features_sec011 p {
+        text-align: center;
+        margin-left: 30px;
+        height: 25px;
+    }
+
+    .features_sec011 img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .hider {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 10000;
+        background-color: Black;
+        opacity: 0.6;
+        filter: alpha(opacity=50);
+    }
+
+    .popupbox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 650px;
+        height: 300px;
+        margin-top: -140px;
+        /*yüksekliğin yarısı olmalı*/
+        margin-left: -325px;
+        /*genişliğin yarısı olmalı*/
+        border: 0px;
+        border-radius: 10px;
+        z-index: 10001;
+        background-color: #fff;
+        /*-moz-box-shadow: 10px 10px 5px rgb(50,50,50);
+        -webkit-box-shadow: 10px 10px 5px rgb(50,50,50);*/
+        /*box-shadow: 10px 10px 5px rgba(50,50,50,0.3);*/
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width:768px) {
+    #trueHeader #logo {
+        margin-top: 5px;
+    }
+
+    .features_sec011 {
+        width: 470px;
+        height: 220px;
+    }
+
+        .features_sec011 .container {
+            width: 470px;
+            height: 220px;
+        }
+
+            .features_sec011 .container ul {
+                padding: 2%;
+                margin-bottom: 20px;
+                height: 220px;
+                width: 470px;
+                border-radius: 5px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+        .features_sec011 .right {
+            width: 58%;
+            padding-left: 2%;
+            display: inline;
+        }
+
+        .features_sec011 h2 {
+            font-size: 15px;
+            line-height: 30px;
+            padding-top: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .features_sec011 li.left {
+            width: 50%;
+        }
+
+        .features_sec011 li.right {
+            float: right;
+            width: 40%;
+            padding-left: 2%;
+        }
+
+        .features_sec011 li a {
+            height: 15px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .features_sec011 ul {
+            position: relative;
+        }
+
+        .features_sec011 p {
+            margin-left: 63px;
+            height: 20px;
+        }
+
+        .features_sec011 img {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .features_sec011 li i {
+            font-size: 15px;
+            color: white;
+        }
+
+    .urunDetay {
+        position: relative;
+        right: 30px;
+        bottom: 15px;
+    }
+
+    .hider {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 10000;
+        background-color: Black;
+        opacity: 0.6;
+        filter: alpha(opacity=50);
+    }
+
+    .popupbox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 480px;
+        height: 219px;
+        margin-top: -130px;
+        /*yüksekliğin yarısı olmalı*/
+        margin-left: -250px;
+        /*genişliğin yarısı olmalı*/
+        border: 0px;
+        border-radius: 10px;
+        z-index: 10001;
+        background-color: #fff;
+        /*-moz-box-shadow: 10px 10px 5px rgb(50,50,50);
+        -webkit-box-shadow: 10px 10px 5px rgb(50,50,50);*/
+        /*box-shadow: 10px 10px 5px rgba(50,50,50,0.3);*/
+    }
+}
+
+@media only screen and (max-width: 597px) {
+    #trueHeader #logo {
+        background-position-y: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 518px) {
+    #trueHeader #logo {
+        background-position-y: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 318px) {
+    #trueHeader #logo {
+        background-position-y: 14px !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    #trueHeader #logo {
+        background-position-y: -41px;
+    }
+
+    .features_sec011 {
+        width: 300px;
+        height: 400px;
+    }
+
+        .features_sec011 .container {
+            width: 300px;
+            height: 400px;
+        }
+
+            .features_sec011 .container ul {
+                padding: 2%;
+                margin-bottom: 20px;
+                height: 390px;
+                width: 290px;
+                border-radius: 5px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+        .features_sec011 .right {
+            width: 58%;
+            padding-left: 2%;
+            display: inline;
+        }
+
+        .features_sec011 h2 {
+            font-size: 15px;
+            line-height: 22px;
+            padding-top: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .features_sec011 li.left {
+            width: 100%;
+            height: 50%;
+        }
+
+        .features_sec011 li.right {
+            float: right;
+            width: 100%;
+            height: 50%;
+            padding-left: 2%;
+        }
+
+        .features_sec011 li a {
+            height: 15px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .features_sec011 ul {
+            position: relative;
+        }
+
+        .features_sec011 p {
+            margin-left: 115px;
+            height: 20px;
+        }
+
+        .features_sec011 img {
+            width: 100%;
+        }
+
+    .urunDetay {
+        position: relative;
+        right: 30px;
+        bottom: 15px;
+    }
+
+    .features_sec011 li i {
+        font-size: 15px;
+        color: white;
+    }
+
+    .hider {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 10000;
+        background-color: Black;
+        opacity: 0.6;
+        filter: alpha(opacity=50);
+    }
+
+    .popupbox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height: 400px;
+        margin-top: -225px;
+        /*yüksekliğin yarısı olmalı*/
+        margin-left: -160px;
+        /*genişliğin yarısı olmalı*/
+        border: 0px;
+        border-radius: 10px;
+        z-index: 10001;
+        background-color: #fff;
+        /*-moz-box-shadow: 10px 10px 5px rgb(50,50,50);
+        -webkit-box-shadow: 10px 10px 5px rgb(50,50,50);*/
+        /*box-shadow: 10px 10px 5px rgba(50,50,50,0.3);*/
+    }
+}
+@media only screen and (max-width: 999px) and (min-width: 768px) {
+    .our_products li {
+        width: 47.8%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .features_sec01 ul img:last-child {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .what_included li {
+        width: 33%;
+        height: 110px;
+    }
+
+        .what_included li strong {
+            margin-bottom: 0;
+        }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .features_sec01 ul img:last-child {
+        height: auto;
+        width: 100%;
+    }
+
+    .what_included li {
+        width: 100%;
+        height: auto !important;
+    }
+
+    #efaturaModal {
+        width: 100% !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {
+
+    .bottom_section .one_half,
+    .bottom_section .one_half.last {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1301px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 55px;
+        height: 67px;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1201px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 59px;
+        height: 65px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1170px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 52px;
+        height: 75px;
+    }
+
+    #sayacDis {
+        width: 330px;
+        margin-left: -160px;
+    }
+
+    #geriSayim {
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 1169px) and (min-width: 1151px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 45px;
+        height: 75px;
+    }
+
+    #sayacDis {
+        width: 330px;
+        margin-left: -160px;
+    }
+
+    #geriSayim {
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 1101px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 42px;
+        height: 75px;
+    }
+
+    #sayacDis {
+        width: 330px;
+        margin-left: -160px;
+    }
+
+    #geriSayim {
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 1000px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 58px;
+        height: 67px;
+    }
+
+    #sayacDis {
+        width: 330px;
+        margin-left: -160px;
+    }
+
+    #geriSayim {
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 40px;
+        height: 60px;
+    }
+
+    #sayacDis {
+        width: 280px;
+        margin-left: -140px;
+    }
+
+    #geriSayim {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 568px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 60px;
+        height: 60px;
+    }
+
+    #sayacDis {
+        width: 280px;
+        margin-left: -140px;
+    }
+
+    #geriSayim {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 567px) and (min-width: 401px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 40px;
+        height: 40px;
+    }
+
+    #sayacDis {
+        width: 185px;
+        margin-left: -90px;
+    }
+
+    #geriSayim {
+        height: 40px;
+    }
+
+        #geriSayim .sayac .timer-box .digits {
+            padding-top: 2px;
+            font-size: 19px;
+        }
+
+        #geriSayim .sayac .timer-box span {
+            font-size: 12px;
+        }
+}
+
+@media only screen and (max-width: 400px) {
+    #geriSayim .sayac .timer-box {
+        min-width: 40px;
+        height: 40px;
+    }
+
+    #sayacDis {
+        width: 185px;
+        margin-left: -90px;
+    }
+
+    #geriSayim {
+        height: 40px;
+    }
+
+        #geriSayim .sayac .timer-box .digits {
+            padding-top: 2px;
+            font-size: 19px;
+        }
+
+        #geriSayim .sayac .timer-box span {
+            font-size: 12px;
+        }
+}
+
+@media only screen and (max-width: 480px) {
+    .devirSayacHeader {
+        margin-top: 13% !important;
+    }
+
+    .devirSayacImg {
+        height: 89px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .devirSayacText {
+        margin-right: 0 !important;
+    }
+
+    .newkampanyaheader {
+        margin-top: 0%;
+    }
+
+    .devirSayacTitle {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 1800px) {
+    .sayacParent {
+        margin-right: 10%;
+    }
+
+    .devirSayacImg {
+        justify-content: end !important;
+    }
+
+    .devirSayacHeader {
+        top: 13.3% !important;
+    }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1650px) {
+    .sayacParent {
+        margin-right: 5%;
+    }
+
+    .devirSayacImg {
+        justify-content: end !important;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1650px) {
+    .sayacParent {
+        margin-right: 6%;
+    }
+
+    .devirSayacImg {
+        justify-content: end !important;
+    }
+
+    .devirSayacHeader {
+        top: 16.5% !important;
+    }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1200px) {
+    .sayacParent {
+        margin-left: 9%;
+    }
+
+    .devirSayacImg {
+        justify-content: end !important;
+    }
+
+    .devirSayacHeader {
+        top: 10% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .devirSayacHeader {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .premiumCardParent {
+        margin-top: -6.6% !important;
+    }
+
+    .destekPaket {
+        margin-top: -5% !important;
+    }
+
+    .standartDestekPaket {
+        margin-top: 2% !important;
+    }
+
+    .onlineTeknikServisImg,
+    .megaUretimImg,
+    .eticaretImg {
+        margin-top: -5% !important;
+    }
+}
+@media (max-width: 768px) {
+    /* Mobil görünüm için daha fazla özelleştirme yapabilirsiniz */
+    .fixed-image img {
+        max-width: 80px; /* Daha küçük cihazlarda görsel boyutu küçült */
+    }
+
+    .fixed-image {
+        left: auto;
+        position: fixed;
+        bottom: 10px; /* Alt konum */
+        right: 10px; /* Sağ konum */
+        z-index: 1000;
+        border-radius: 10px; /* Köşeleri yuvarlat */
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .fixed-image img {
+            max-width: 130px; /* Görselin genişliği */
+            height: auto;
+            display: block;
+        }
+
+        .fixed-image .close-button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: #f98827;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .fixed-image .close-button:hover {
+                background-color: darkred;
+            }
+
+    .close-button {
+        display: flex; /* Sadece mobil görünümde göster */
+    }
+     /* Sayfa boyutları değiştikçe pop-up boyutunu ayarlama */
+            @media screen and (max-width: 768px) {
+                .popup-content {
+                    width: 70%;
+                }
+            }
+
+
+
+            @media screen and (max-width: 1500px) {
+                .ilk-gorsel {
+                    display: none;
+                }
+
+                .banner-content {
+                    text-align: center;
+                }
+}
+/* Mobil görünüme geçtiğinde hamburger simgesi ve mobil menü aktif olacak */
+@media (max-width: 768px) {
+    .one_fourth {
+        margin-top: 22px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .menu {
+        display: none; /* Klasik menüyü gizle */
+    }
+
+    .hamburger-wrapper {
+        display: block;
+        position: fixed;
+        top: 68px;
+        left: 10px;
+        z-index: 1001;
+        color: orange;
+    }
+
+    .hemen-dene {
+        display: block;
+        position: fixed;
+        top: 68px;
+        right: 20px;
+        z-index: 1001;
+        color: orange;
+    }
+
+    .hamburger-menu {
+        color: #F48220 !important;
+        font-size: 35px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        color: #fff;
+        transform: translateX(-100%); /* Yandan gizli başlar */
+        transition: transform 0.3s ease;
+        z-index: 1000;
+        overflow-y: auto; /* Dikey kaydırma */
+    }
+
+        /* Menü açıldığında ekrana gelir */
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+
+    .menu-content a {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        .menu-content a:hover {
+            background-color: #444;
+        }
+
+    .menu-content {
+        margin-top: 40%;
+    }
+    /* Alt menülerin açılıp kapanması */
+    .mobile-dropdown {
+        position: relative;
+    }
+
+        .mobile-dropdown a {
+            color: #fff;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Açılır ikon için yer açar */
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        /* Açılır simge için stil ekleme */
+        /* Sadece dropdown içeren menü başlıkları için ok işareti */
+        .mobile-dropdown > a::after {
+            content: "▾";
+            font-size: 32px;
+            color: #fff;
+            margin-left: 10px;
+            transition: transform 0.3s;
+        }
+
+        /* Menü açıldığında ok işareti yukarı döner */
+        .mobile-dropdown.active > a::after {
+            transform: rotate(180deg);
+        }
+
+
+    /* Alt menülerin başlangıçta gizlenmesi */
+    .mobile-dropdown-content {
+        display: none;
+        background-color: #444;
+        padding-left: 20px;
+    }
+
+    /* Menü aktif olduğunda alt menüyü gösterme */
+    .mobile-dropdown.active .mobile-dropdown-content {
+        display: block;
+    }
+
+    /* Hover veya tıklama ile menüyü açma */
+    .mobile-dropdown a {
+        cursor: pointer;
+    }
+
+    /* Geçiş efekti */
+    .mobile-dropdown-content a {
+        padding: 10px;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+        .mobile-dropdown-content a:hover {
+            background-color: #555;
+        }
+    /* Buton boyutlandırma */
+    .hemen-dene .dene-buton {
+        padding: 8px 12px; /* Butonun iç boşluğunu küçültme */
+        font-size: 14px; /* Font boyutunu küçültme */
+        border-radius: 5px; /* Kenarları daha yumuşak hale getirme */
+        color: #fff; /* Buton yazı rengi */
+        background-color: #F48220; /* Buton arka plan rengi */
+        text-decoration: none; /* Alt çizgiyi kaldırma */
+        display: inline-block;
+        transition: background-color 0.3s;
+    }
+
+        /* Hover efekti */
+        .hemen-dene .dene-buton:hover {
+            background-color: #e0701b; /* Hover durumunda arka plan rengini hafifçe koyulaştırma */
+        }
+}
+@media (max-width: 768px) {
+    .cardEkmodul {
+        flex: 1 1 100%; /* Mobilde kartlar tam genişlikte görünür */
+    }
+}
+@media only screen and (max-width: 597px) {
+    .ucretsizBanner {
+        width: 70%;
+        height: 100%;
+    }
+
+    .OnMuhasebeTitle {
+        line-height: 40px;
+        margin-top: 15%;
+        margin-bottom: 0px;
+    }
+
+    .programlarTotal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programlarCard {
+        width: 80%;
+    }
+
+    .ekModulTitle {
+        line-height: 44px;
+    }
+
+    .efaturaButton {
+        font-size: 12px;
+        padding: 20px 43px;
+    }
+
+    .gibButton {
+        font-size: 12px;
+        padding: 19px 25px;
+    }
+
+    .OzellikTitle {
+        line-height: 53px;
+        font-size: 30px;
+    }
+
+    .onlineOnMuhasebeTitle {
+        line-height: 48px;
+        font-size: 30px;
+    }
+
+    .onlineOnMuhasebeDescription {
+        color: white;
+        font-size: 20px;
+    }
+
+    .muhasebeDetay {
+        font-size: 21px;
+    }
+
+    .get_features_list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .get_features {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 597px) and (max-width: 845px) {
+    .ucretsizBanner {
+        width: 70%;
+    }
+
+    .programlarTotal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programlarCard {
+        width: 90%;
+    }
+
+    .onlineOnMuhasebeTitle {
+        line-height: 48px;
+        font-size: 30px;
+    }
+
+    .onlineOnMuhasebeDescription {
+        color: white;
+        font-size: 20px;
+    }
+
+    .muhasebeDetay {
+        font-size: 21px;
+    }
+
+    .get_features_list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .OzellikTitle {
+        line-height: 53px;
+        font-size: 30px;
+    }
+
+    .get_features .get_features_list li.right {
+        width: 69%;
+    }
+
+    .get_features {
+        margin-left: 0;
+    }
+}
+/* Responsive ayarları */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%; /* Mobil uyumlu genişlik */
+    }
+}
+/* Responsive ayarları */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%; /* Mobil uyumlu genişlik */
+    }
+
+    .bilsoft-logo {
+        width: 60px;
+    }
+
+    .modal-header h2 {
+        font-size: 16px;
+    }
+
+    .checkbox-container {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1860px) {
+    .anketVectorDiv {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1700px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .anketTitle {
+        font-size: 40px;
+        padding-top: 5%;
+    }
+
+    .anketCheckTitle {
+        font-size: 20px;
+    }
+
+    .anketFormDiv {
+        margin-left: 8%;
+        width: 85%;
+    }
+
+    .subAnketDescription {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .anketVectorDiv {
+        width: 100%;
+    }
+
+    .anketImage {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1270px) and (max-width: 1400px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .anketTitle {
+        font-size: 26px;
+        padding-top: 0;
+    }
+
+    .anketCheckTitle {
+        font-size: 15px;
+    }
+
+    .anketPartial {
+        margin-top: 0;
+        margin-bottom: 6%;
+    }
+
+    .subAnketDescription {
+        font-size: 15px;
+    }
+
+    .anketImage {
+        width: 70%;
+    }
+
+    .anketFormDiv {
+        width: 100%;
+        margin-left: 6%;
+    }
+
+    .anketVectorDiv {
+        display: block;
+    }
+
+    .modalCloseDiv {
+        text-align: end;
+        padding-top: 1%;
+    }
+
+    .modalClose {
+        font-size: 35px;
+        font-weight: 600;
+        color: #dd0000;
+    }
+
+    .submitButton {
+        margin-top: 0;
+        margin-right: 7%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1270px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .anketTitle {
+        font-size: 33px;
+        padding-top: 0;
+    }
+
+    .anketPartial {
+        margin-top: 4%;
+    }
+
+    .anketCheckTitle {
+        font-size: 16px;
+    }
+
+    .anketFormDiv {
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    .anketImage {
+        width: 100%;
+    }
+
+    .anketVectorDiv {
+        width: 100%;
+        display: block;
+    }
+
+    .modalCloseDiv {
+        text-align: end;
+        padding-top: 3%;
+    }
+
+    .modalClose {
+        font-size: 33px;
+        font-weight: 600;
+        color: #dd0000;
+    }
+
+    .subAnketDescription {
+        font-size: 15px;
+    }
+
+    .submitButton {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .anketParentDiv {
+        flex-direction: column;
+    }
+
+    .anketTitle {
+        font-size: 80px;
+    }
+
+    .anketVectorDiv {
+        text-align: center;
+    }
+
+    .anketPartial {
+        margin-bottom: 6%;
+    }
+
+    .anketImage {
+        width: 94%;
+        margin-top: 0;
+    }
+
+    .modalCloseDiv {
+        text-align: end;
+        padding-top: 3%;
+    }
+
+    .modalClose {
+        font-size: 50px;
+        font-weight: 600;
+        color: #dd0000;
+    }
+
+    .submitButton {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .anketTitle {
+        font-size: 25px;
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+
+    .anketCheckTitle {
+        font-size: 18px;
+    }
+
+    .anketImage {
+        display: block;
+    }
+
+    .anketFormDiv {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .anketPartial {
+        margin-top: 6%;
+    }
+
+    .submitButtonDiv {
+        margin-right: 20%;
+    }
+
+    .modalCloseDiv {
+        text-align: end;
+        padding-top: 1%;
+    }
+
+    .modalClose {
+        font-size: 27px;
+        font-weight: 600;
+        color: #dd0000;
+    }
+
+    .subAnketDescription {
+        font-size: 13px;
+    }
+
+    .submitButton {
+        padding: 5px 30px;
+        margin-left: 10%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1400px) {
+    .digerParent {
+        justify-content: unset;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+    .digerParent {
+        justify-content: unset;
+    }
+
+    .subAnketDescription {
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .anketTitle {
+        margin-top: 25%;
+        font-size: 19px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .anketCheckTitle {
+        font-size: 18px;
+    }
+
+    .anketImage {
+        display: block;
+    }
+
+    .anketFormDiv {
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .submitButton {
+        font-size: 14px;
+        padding: 6px 25px;
+    }
+
+    .submitButtonDiv {
+        margin-right: 10%;
+    }
+
+    .subAnketDescription {
+        font-size: 12px;
+    }
+
+    .digerParent {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .digerValue {
+        width: 85%;
+        margin-top: 2%;
+        border: 2px solid #ffa101;
+    }
+
+    .modalCloseDiv {
+        text-align: end;
+        padding-top: 3%;
+    }
+
+    .modalClose {
+        font-size: 30px;
+        font-weight: 600;
+        color: #dd0000;
+    }
+
+    .anket {
+        margin-right: 3%;
+        transform: scale(1.4);
+    }
+}
+@media only screen and (max-width: 1153px) {
+    .countdown-parent-div {
+        display: none !important;
+    }
+}

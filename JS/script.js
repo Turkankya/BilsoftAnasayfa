@@ -1,84 +1,3 @@
-
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-tpj = jQuery;
-tpj.noConflict();
-
-tpj(document).ready(function () {
-    if (tpj.fn.cssOriginal !== undefined) {
-        tpj.fn.css = tpj.fn.cssOriginal;
-    }
-
-    var api = tpj('.fullwidthbanner').revolution({
-        delay: 9000,
-        startwidth: 1170,
-        startheight: 500,
-
-        onHoverStop: "on",
-
-        thumbWidth: 100,
-        thumbHeight: 50,
-        thumbAmount: 3,
-
-        hideThumbs: 200,
-        navigationType: "bullet", 
-        navigationArrows: "solo",
-        navigationStyle: "round",
-
-        navigationHAlign: "center",
-        navigationVAlign: "bottom",
-        navigationHOffset: 30,
-        navigationVOffset: -40,
-
-        soloArrowLeftHalign: "left",
-        soloArrowLeftValign: "center",
-        soloArrowLeftHOffset: 20,
-        soloArrowLeftVOffset: 0,
-
-        soloArrowRightHalign: "right",
-        soloArrowRightValign: "center",
-        soloArrowRightHOffset: 20,
-        soloArrowRightVOffset: 0,
-
-        touchenabled: "on", 
-        stopAtSlide: -1,
-        stopAfterLoops: -1,
-
-        hideCaptionAtLimit: 0,
-        hideAllCaptionAtLilmit: 0,
-        hideSliderAtLimit: 0,
-
-        fullWidth: "on",
-        shadow: 0
-    });
-
-    // 🛠 Mobil Swipe (Kaydırma) Desteği
-    let startX, endX;
-    let threshold = 50; // Minimum kaydırma mesafesi
-
-    tpj('.fullwidthbanner-container').on("touchstart", function (e) {
-        startX = e.originalEvent.touches[0].clientX;
-    });
-
-    tpj('.fullwidthbanner-container').on("touchmove", function (e) {
-        endX = e.originalEvent.touches[0].clientX;
-    });
-
-    tpj('.fullwidthbanner-container').on("touchend", function () {
-        if (startX - endX > threshold) {
-            api.revnext(); // Sağa kaydırınca sonraki slayta git
-        } else if (endX - startX > threshold) {
-            api.revprev(); // Sola kaydırınca önceki slayta git
-        }
-    });
-});
-
-
-
-
-
-
 function mobilIndirme() {
     if (window.innerWidth <= 768) {
         window.location.href = "https://www.bilsoft.com/ucretsizmobilindirme.html";
@@ -466,6 +385,27 @@ $("[name='phone_number']").inputmask("(999) 999-9999");
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
 })();
+
+
+/*slider animasyon*/
+document.addEventListener("DOMContentLoaded", function() {
+    let slider = document.querySelector(".fullwidthbanner ul");
+    let slides = document.querySelectorAll(".fullwidthbanner ul li");
+    let currentIndex = 0;
+
+    function moveSlider(){
+        currentIndex++;
+
+        if(currentIndex >= slides.length){
+            currentIndex = 0;
+        }
+
+        let translateX = -currentIndex * 100;
+        slider.style.transform = 'translateX(${translateX}%)';
+    }
+
+    setInterval(moveSlider, 3000);
+})
 
 
 
